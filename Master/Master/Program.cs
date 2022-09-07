@@ -56,9 +56,8 @@ namespace Master
 
         static void Main()
         {
-            Console.WriteLine("enter password");
-            string originalphonenumber = Console.ReadLine();
-            string hash = GetMD5(originalphonenumber);
+            Console.WriteLine("enter hash");
+            string hash = Console.ReadLine();
             ShowPassword(hash);
         }
     }
