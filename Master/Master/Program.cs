@@ -33,7 +33,6 @@ namespace Master
                     iffound = true;
                         break;
                     }
-                    Console.WriteLine("start working on minion" + i);
                 }
             if (!iffound)
                 Console.WriteLine("Not found");   
